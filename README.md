@@ -1,4 +1,4 @@
-# Slack Bridge
+# Slack Bridge Python
 
 ## Setup
 ### Slack Setup
