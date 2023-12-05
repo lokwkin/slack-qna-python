@@ -4,9 +4,9 @@ from slack_sdk.socket_mode import SocketModeClient
 from slack_sdk.socket_mode.response import SocketModeResponse
 from slack_sdk.socket_mode.request import SocketModeRequest
 from datetime import datetime
-from slack_bridge_python.schema import IncomingMessage, OutgoingMessage, Reactions, CommandHook
+from slack_qna.schema import IncomingMessage, OutgoingMessage, Reactions, CommandHook
 
-class SlackBridge:
+class SlackQna:
 
     def __init__(self, slack_bot_token, slack_app_token, bot_user_id, reactions=None):
         self.client = WebClient(token=slack_bot_token)
